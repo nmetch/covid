@@ -140,8 +140,7 @@ df.head()
 df.info()
 #value count age group
 df['age_group'].value_counts()
-#Dropping all rows with 'Unknown values' as well as dropping columns that are extremely
-skewed.
+#Dropping all rows with 'Unknown values' as well as dropping columns that are extremely skewed.
 df = df[df['Race and ethnicity (combined)'] != 'Unknown']
 df = df[df.death_yn != 'Unknown']
 df = df[df['hosp_yn'] != 'Unknown']
