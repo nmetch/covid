@@ -1,8 +1,8 @@
-numpy
-pandas
+numpy==1.25.1
+pandas>2.0
 seaborn
-streamlit
-matplotlib
+streamlit==1.24.1
+matplotlib==3.4.2
 sklearn-learn
-python
+python==3.5.10
 pydataset
