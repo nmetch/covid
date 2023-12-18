@@ -48,8 +48,8 @@ names = ['Confirmed', 'Probable']
 fig = px.pie(
  names=names,
  values=values,
- title="Case Status" 
-color_discrete_sequence=px.colors.sequential.RdBu,
+ title="Case Status", 
+ color_discrete_sequence=px.colors.sequential.RdBu,
 )
 fig.show()
 #Gender Allocation pie chart
@@ -58,7 +58,8 @@ names = ['Female', 'Male', 'Unknown', 'Missing', 'Other']
 fig = px.pie(
  names=names,
  values=values,
- title="Gender Status color_discrete_sequence=px.colors.sequential.Bluyl_r"
+ title="Gender Status",
+ color_discrete_sequence=px.colors.sequential.Bluyl_r,
 )
 fig.show()
 #Gender Allocation bar chart
