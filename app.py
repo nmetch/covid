@@ -26,15 +26,7 @@ from plotly.subplots import make_subplots
 uploaded_file = st.file_uploader("Upload a CSV file with COVID-19 data", type=["csv"])
 df = pd.read_csv(uploaded_file)
 df
-# Import data from URL and Read data
-import urllib
-URL = "https://data.cdc.gov/resource/vbimakqf.json?$query=SELECT%0A%20%20%60cdc_case_earliest_dt%60%2C%0A%20%20%60cdc_report_dt%60%2C%0
-A%20%20%60pos_spec_dt%60%2C%0A%20%20%60onset_dt%60%2C%0A%20%20%60current_status%60%2C%0A%20%20
-%60sex%60%2C%0A%20%20%60age_group%60%2C%0A%20%20%60race_ethnicity_combined%60%2C%0A%20%20%60ho
-sp_yn%60%2C%0A%20%20%60icu_yn%60%2C%0A%20%20%60death_yn%60%2C%0A%20%20%60medcond_yn%60"
-dfurl = urllib.request.urlopen(URL)
-urlfile = dfurl.read()
-print(urlfile)
+
 #Data Preprocessing
 #Shape
 #number of rows and columns
