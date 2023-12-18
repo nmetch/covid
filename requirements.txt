@@ -3,6 +3,6 @@ pandas>2.0
 seaborn
 streamlit==1.24.1
 matplotlib==3.4.2
-sklearn-learn
+sklearn
 python==3.5.10
 pydataset
