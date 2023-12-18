@@ -1,4 +1,5 @@
 #libraries
+import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,7 +23,8 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots 
 
 #Load data Read Data
-df = pd.read_csv('COVID-19_Case_Surveillance_Public_Use_Data.csv')
+uploaded_file = st.file_uploader("Upload a CSV file with COVID-19 data", type=["csv"])
+df = pd.read_csv(uploaded_file)
 df
 # Import data from URL and Read data
 import urllib
