@@ -48,7 +48,7 @@ names = ['Confirmed', 'Probable']
 fig = px.pie(
  names=names,
  values=values,
- title="Case Status 
+ title="Case Status" 
 
  color_discrete_sequence=px.colors.sequential.RdBu,
 )
