@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.style as style
 style.available
-import seaborn as sns
+
 
 from sklearn.linear_model import LinearRegression, BayesianRidge
 from sklearn.model_selection import RandomizedSearchCV, train_test_split
