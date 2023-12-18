@@ -12,7 +12,7 @@ from sklearn.model_selection import RandomizedSearchCV, train_test_split
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import GridSearchCV
-from statsmodels.tsa.arima.model import ARIMA
+
 from sklearn.metrics import mean_squared_error
 import warnings
 warnings.simplefilter("ignore") #ignore warnings for legibility
