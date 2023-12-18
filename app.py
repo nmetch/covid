@@ -88,7 +88,7 @@ fig.show()
 
 #Data inspection and cleaning
 #Null values
-df.info(null_counts=True)
+st.write(df.info(null_counts=True))
 
 #round Null values
 round(100*(df.isnull().sum()/len(df.index)), 10)
